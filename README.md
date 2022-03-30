@@ -4,6 +4,8 @@
 
 This app will let you to add/delete books to a list, the book information will be stored temporarily on the  web page local storage, see picture link for details.
 
+https://w3zeblamf.github.io/book-warehouse/img/book-warehouse.png
+
  
  P.D.: "Self training and learning purpose".
 
