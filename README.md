@@ -2,7 +2,7 @@
 
 - Project: The book warehouse (in progress)
 
-This app will let you to add/delete books to a list, the book information will be stored temporarily on the  web page local storage, see picture link for details.
+This app will let you to add/delete books to a list, the book information will be stored  on the  web page local storage, see picture link for details.
 
 https://w3zeblamf.github.io/book-warehouse/img/book-warehouse.png
 
