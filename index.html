@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="icon" type="image/png" href="img/git-branch.png">
+  <!-- Bootswatch Theme Tuned for Bootstrap 5.1.3 -->
+  <!-- <link rel="stylesheet" href="https://bootswatch.com/5/superhero/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+  <!-- Font Awesome 6.1.1 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+
+  <title>Book Warehouse</title> 
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark">
+			
+    <div class="container-fluid" >
+      <a href="#" class="navbar-brand"><span class="badge bg-dark-transparent  shadow text-info fs-5" style="border-radius: .2rem;">Zebla MF</span></a>
+      <a href="index-es.html" role="button" class="nav-link ms-4 text-info" title="Spanish">spa <img src="img/Venezuela-flag.png" class="ms-1" style="width: 1.5rem; opacity: 0.7;" alt="">
+      </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-3">
+    <h1 class="display-4 text-center"><span class="text-info">Book ...</span><i class="fa-regular fa-book text-info"></i>  Warehouse</h1>
+
+    <form id="book-form">
+      <div class="form-group mb-2">
+        <label for="title" >  <i class="fa-solid fa-book-atlas me-2 mb-2"></i>Title</label>
+        <input type="text" id="title" class="form-control" placeholder="Add book title" style="border-radius: .2rem;">
+      </div>
+      <div class="form-group mb-2">
+        <label for="author"> <i class="fa-solid fa-pen me-1 mb-2"></i>  </i>Author</i></label>
+        <input type="text" id="author" class="form-control" placeholder="Add author" 
+        style="border-radius: .2rem;">
+      </div>
+      <div class="form-group mb-2">
+        <label for="isbn" title="International Standard Book Number"><i class="fa-solid fa-hashtag me-1 mb-2"></i> ISBN</label>
+        <input type="text" id="isbn" class="form-control" placeholder="Add the International Standard Book Number" 
+        style="border-radius: .2rem;">
+      </div>
+      <div class="d-grid gap-2 d-md-block mt-3">
+        <input type="submit" value="Add new book &nbsp;&nbsp; >>" class="btn btn-info mt-2 text-dark fw-bold" style="border-radius: .2rem;"> 
+      </div>
+    </form>
+
+    <table class="table table-striped mt-5">
+      <thead>
+        <tr>
+          <th><i class="fa-regular fa-book me-1"></i> Title</th>
+
+          <th><i class="fa-solid fa-glasses me-1"></i></i> Author </i></th>
+          <th><i class="fa-solid fa-hashtag me-1"></i> ISBN</th>
+          <th><i class="fa-solid fa-trash me-2"></i></i> Remove</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="book-list"></tbody>
+    </table>
+
+  </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
