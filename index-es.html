@@ -18,6 +18,8 @@
 </head>
 <body>
 
+  <!-- Navbar
+******************************************** -->
   <nav class="navbar navbar-expand-md navbar-dark">
 			
     <div class="container-fluid" >
@@ -27,10 +29,16 @@
       </div>
     </div>
   </nav>
+  <!-- End of Navbar
+  ***************************************** -->
 
+  <!-- Container
+  ***************************************** -->
   <div class="container mt-3">
     <h1 class="display-4 text-center">Almacén de <span class="text-info">Libros ... </span><i class="fa-solid fa-book-atlas text-info"></i></h1>
 
+  <!-- Form section
+  ***************************************** -->
     <form id="book-form">
       <div class="form-group mb-2">
         <label for="title" >  <i class="fa-solid fa-book-atlas me-2 mb-2"></i>Título</label>
@@ -50,7 +58,11 @@
         <input type="submit" value="Agregar libro &nbsp;&nbsp; >>" class="btn btn-info mt-2 text-dark fw-bold" style="border-radius: .2rem;"> 
       </div>
     </form>
+    <!-- End of Form section
+  ***************************************** -->
 
+  <!-- Table section
+  ***************************************** -->
     <table class="table table-striped mt-5">
       <thead>
         <tr>
@@ -64,8 +76,12 @@
       </thead>
       <tbody id="book-list"></tbody>
     </table>
+    <!-- End of Table section
+  ***************************************** -->
 
   </div>
+    <!-- End of Container
+  ***************************************** -->
 
     <script src="script/script.js"></script>
 </body>
