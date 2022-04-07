@@ -1,6 +1,6 @@
 # JavaScript/ES6 and Bootstrap/v5.1 
 
-- Project: The book warehouse (in progress)
+- Project: The book warehouse
 
 This app will let you to add/delete books to a list, the book information will be stored temporally on the  web page local storage, see picture link for details.
 
